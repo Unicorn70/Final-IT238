@@ -1,0 +1,94 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Fur Family</title>
+<meta name="keywords" content=" Shih Tzu, Shih Tzu babies, Small dog, family memebers, Furbabies" />
+<style type="text/css">
+h1{font-family: "Times New Roman", Times, serif}
+#firstline{position: relative; color: #009; top: 6px; left: 300px; height: 50px; width: 100px; font-size: 16px; text-align: center}
+#secondline{position: relative; color: #009; top: 25px; left: 200px; font-size: 13px; text align: center;}
+#container{position: relative; top: 25px;}
+h1 {font-size: 24pt; 
+	color: #906; 
+	font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;}
+h2 {font-size: 18pt; 
+	color: #900; 
+	font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;}
+body {font-size: 14pt; 
+	  color: #03F; 
+	  font-family: "Times New Roman", Times, serif; }
+#Star{font-size: 14pt; font-style: normal; color: #30C; font-family: "Times New Roman", Times, serif; background-color: #0CF;}
+#Gizmo{font-size: 14pt; font-style: normal; color: #0CF; font-family: "Times New Roman", Times, serif; background-color: #30C;}
+#Little Miss{font-size: 14pt; font-style: normal; color: #30C; font-family: "Times New Roman", Times, serif; background-color: #0CF;}
+#Oreo{font-size: 14pt; font-style: normal; color: #0CF; font-family: "Times New Roman", Times, serif; background-color: #30C;}
+</style>
+</head>
+
+<body bgcolor="#0099FF">
+<h1>Welcome to my Web Page</h1>
+<script type="text/javascript">
+/* <![CDATA[ */
+var dateObject = new Date();
+var greeting = "";
+var curTime = "";
+var minuteValue = dateObject.getMinutes();
+var hourValue = dateObject.getHours();
+if (minuteValue < 10)
+minuteValue = "0" + minuteValue;
+if (hourValue < 12) {
+greeting = "<p>Good Morning! "
+curTime = hourValue + ":" + minuteValue + " AM";
+}
+else if (hourValue == 12) {
+greeting = "<p>Good Afternoon! ";
+curTime = hourValue + ":" + minuteValue + " PM";
+}
+else if (hourValue < 17) {
+greeting = "<p> Good Afternoon!"
+curTime = (hourValue-12) + ":" + minuteValue + " PM"
+}
+else {
+greeting = "<p>Good evening! "
+curTime = (hourValue-12) + ":" + minuteValue + " PM"
+}
+var dayArray = new Array("Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday");
+var monthArray = new Array("January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December");
+var day = dateObject.getDay();
+var month = dateObject.getMonth();
+document.write("<p>"+ greeting + "It is " + curTime + " on " + dayArray[day] + ", " + monthArray[month] + " " + dateObject.getDate() + ", " + dateObject.getFullYear() + ".</p>");
+/* ]]> */
+</script>
+<div id="firstline">
+<h1>Furfamily</h1>
+</div>
+<div id="secondline">
+<h1>They are my furchildren.</h1>
+</div>
+<div id="container">
+<p><a href="index.html">Introduction</a> | <a href="parents.html">Parents</a> | <a href="babies.html">Fur Babies</a> |  <a href="furfamily.html">Fur Family</a>
+</p>
+<div id="Star">
+Star
+<img src="Images/DSC00156.JPG" width="250" height="300" alt="Star" />Star is almost 8 years old, she came to live with us when she was 3 years old. She is queen of the house over all the animals. She was a good mom when she had babies. Now she enjoy the life of being retied and just being lazy around the house.</div>
+ <div id="Gizmo">
+Gizmo
+<img src="Images/DSC00068.JPG" width="250" height="300" alt="Gizmo" />Gizmo is about 5 years old. He is the protecter of the house he will try and protect all the dog he think they are in danger. He produce the cutes babies. He is very helpful with the babies when mom let him help, he will clean up after them watch them and try to keep the babies out of trouble.</div>
+<div id="LittleMiss">
+Little Miss
+<img src="Images/DSC00136.JPG" width="250" height="300" alt="Little Miss" />Little Miss Briget is about 2 years old. She loves to  be held and cuddle. This is her first litter of babies and she had 6 of them. She is woundful mother to babies she still don't want any other animals near her babies yet. Little Miss is the odd one for the Shih Tzu breed she loves to play in water. She has her own swimming pool that she get to play in when the weather is warm. One of her favorite thing to do is jump in her swimming pool and then jump on her sister Oreo. </div>
+<div id="Oreo">
+Oreo
+<img src="Images/DSC00139.JPG" width="250" height="300" alt="Oreo" />Oreo is about 2 years old. She came to us from a liter we breed hear we fell in love with her and kept her. She will never know about having her own babies, but she does try to help with her sister babies when her sister is outside. Oreo like to hide she will find the oddest place to hide. She is also very mischievous, she like to find trouble. She is good about playing with her toys and if nobody can play with her she will toss the toy then go get toy herself.</div>
+</div>
+<blockquote>
+<h2>Contact information:</h2>
+<ul>
+<li><b>Bryce Valley Kennel</b></li>
+<li><b>435-679-8423</b></li>
+<li><b>brycevalleykennel@yahoo.com</b></li>
+<li><b>babyunicorn70@yahoo.com</b></li>
+</ul>
+</blockquote>
+</body>
+</html>
